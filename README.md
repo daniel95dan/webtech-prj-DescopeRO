@@ -1,5 +1,10 @@
 # webtech-prj-DescopeRO
 Repository pentru proiectul de la seminarul de tehnologii web.
+
+#Descriere proiect
+
+
+#Tabele si entitati Baza de Date
 Creare baza de date cu urmatoarele tabele:
 1)Zona: 
   -ID
@@ -10,4 +15,10 @@ Creare baza de date cu urmatoarele tabele:
   -ID Zona
   -Denumire
   -Tip
-  -
+  -Descriere completa
+
+#Tehnologii Folosite
+NodeJs
+MySQL
+NodeAdmin
+SequalizeJS
