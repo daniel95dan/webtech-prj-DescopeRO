@@ -11,7 +11,7 @@ Creare baza de date cu urmatoarele tabele:
 * -Denumire
 * -Judete incluse
 * -Numar Atractii
-*2)Atractie:
+* 2)Atractie:
 * -ID Zona
 * -Denumire
 * -Tip
