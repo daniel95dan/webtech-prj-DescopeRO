@@ -1,0 +1,40 @@
+<div class="container">
+ <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Zone
+                <small>Regiuni istorice</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a>
+                </li>
+                <li class="active">Zone</li>
+            </ol>
+        </div>
+
+    </div>
+ <div class="col-lg-12">
+<table class="table">
+			<thead>
+				<th>
+					Denumire
+				</th>
+				<th>
+					Judete
+				</th>
+					<th>
+				    Istorie
+				</th>
+			
+			</thead>
+			<tr ng-repeat="zona in Zona">
+			
+					<td>{{zona.denumire}}</td>
+					<td>{{zona.judete}}</td>
+					<td>{{zona.istorie}}</td>
+						
+			
+		    </tr>
+</table>
+</div>
+</div>

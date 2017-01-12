@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Zone Vizitate
+                <small>Pe unde au fost calatorii nostri</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Home</a>
+                </li>
+                <li class="active">Zone vizitate</li>
+            </ol>
+        </div>
+
+    </div>
+
+     <div class="col-lg-12">
+<table class="table">
+			<thead>
+				<th>
+					Zona
+				</th>
+				<th>
+					Perioada
+				</th>
+				
+			
+			</thead>
+			<tr ng-repeat="zoneviz in Zoneviz">
+			
+					<td>{{zoneviz.Nume}}</td>
+					<td>{{zoneviz.Perioada}}</td>
+		
+						
+			
+		    </tr>
+</table>
+</div>
+</div>
+
+
