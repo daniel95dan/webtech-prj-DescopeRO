@@ -2,7 +2,7 @@
 Repository pentru proiectul de la seminarul de tehnologii web.
 
 #Descriere proiect
-
+Proiectul prezinta zonele istorice ale Romaniei si inregistreaza vizitele utilizatorilor
 
 #Tabele si entitati Baza de Date
 Creare baza de date cu urmatoarele tabele:
@@ -10,15 +10,21 @@ Creare baza de date cu urmatoarele tabele:
 * -ID
 * -Denumire
 * -Judete incluse
-* -Numar Atractii
-* 2)Atractie:
-* -ID Zona
-* -Denumire
-* -Tip
-* -Descriere completa
-
+* -istorie
+*
+* 2)Calator:
+* -ID
+* -Nume
+* -Prenume
+* 
+* 3)Zonaviz
+* -Id
+* -nume
+* -perioada
+* -calatorId
 #Tehnologii Folosite
 * NodeJs
 * MySQL
-* NodeAdmin
+* AngularJS
 * SequalizeJS
+* Express
