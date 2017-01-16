@@ -17,20 +17,30 @@
      <div class="col-lg-12">
 <table class="table">
 			<thead>
+			
 				<th>
 					Zona
 				</th>
 				<th>
-					Perioada
+				    Perioada
 				</th>
-				
+				<th>
+				    Modifica Perioada
+				</th>
 			
 			</thead>
 			<tr ng-repeat="zoneviz in Zoneviz">
 			
+					
 					<td>{{zoneviz.Nume}}</td>
 					<td>{{zoneviz.Perioada}}</td>
-		
+	             	<td><input style="width:160px" type="date" ng-model="perioadanoua" name="perioadanoua" value="{{zoneviz.Perioada}}"/></td>
+					<td>
+						 <button class='btn-warning btn col-md-10 col-md-offset-1' ng-click='modifica(zoneviz.id,perioadanoua)'>Modifica</button>
+					</td>	
+					<td>
+					    <button class='btn-danger btn col-md-10 col-md-offset-1' ng-click='sterge(zoneviz.id)'>Elimina</button>
+					</td>
 						
 			
 		    </tr>

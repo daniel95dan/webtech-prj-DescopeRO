@@ -99,10 +99,20 @@ zoneviz.sync({}).then(function () {
     calatorId:'1'
   });
 });
-
-
-
-
+zoneviz.find({ where: { Nume: 'Bucovina' } }).then(function (zoneviz) {
+    
+    if (zoneviz) {
+      zoneviz.updateAttributes({
+        Nume: 'Transilvania'
+      });
+      
+    }
+  });
+  
+sequelize.query("SELECT * FROM `Zona`", { type: sequelize.QueryTypes.SELECT})
+  .then(function(zona) {
+    
+  });
 app.listen(process.env.PORT);
 
 
